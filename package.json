@@ -4,13 +4,13 @@
   "description": "quantarium meta project",
   "main": "index.js",
   "scripts": {
-    "init": "./node_modules/.bin/meta git update && ./node_modules/.bin/meta npm install",
-    "update": "./node_modules/.bin/meta git pull origin master && ./node_modules/.bin/meta npm install",
-    "build": "cd ui && npm run build && cd ../qsim && npm run build",
-    "serve-api": "cd api && npm run serve",
+    "init": "./node_modules/.bin/meta git update && ./node_modules/.bin/meta yarn install",
+    "update": "./node_modules/.bin/meta git pull origin master && ./node_modules/.bin/meta yarn install",
+    "build": "cd ui && yarn run build && cd ../qsim && yarn run build",
+    "serve-api": "cd api && yarn run serve",
     "serve-ui": "cd ui/dist && ../../node_modules/.bin/static-server -p 8080",
     "serve-sphere": "cd sphere && ../node_modules/.bin/static-server -p 5000 -o",
-    "start": "./node_modules/.bin/concurrently -n api,ui,sphere \"npm run serve-api\" \"npm run serve-ui\" \"npm run serve-sphere\"",
+    "start": "./node_modules/.bin/concurrently -n api,ui,sphere \"yarn run serve-api\" \"yarn run serve-ui\" \"yarn run serve-sphere\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +27,7 @@
   "devDependencies": {
     "concurrently": "^4.1.0",
     "meta": "^1.2.16",
-    "meta-npm": "^1.0.2",
+    "meta-yarn": "^1.0.0",
     "static-server": "^2.2.1"
   }
 }
