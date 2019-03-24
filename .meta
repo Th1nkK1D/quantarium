@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "ui": "https://github.com/Th1nkK1D/quantarium-ui",
+    "api": "https://github.com/Th1nkK1D/quantarium-api",
+    "qsim": "https://github.com/Th1nkK1D/quantarium-qsim",
+    "sphere": "https://github.com/ifindzandba/2dblochsphere"
+  }
+}
