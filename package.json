@@ -4,13 +4,13 @@
   "description": "quantarium meta project",
   "main": "index.js",
   "scripts": {
-    "init": "node_modules/.bin/meta git update && node_modules/.bin/meta npm install",
-    "update": "node_modules/.bin/meta git pull origin master && node_modules/.bin/meta npm install",
+    "init": "./node_modules/.bin/meta git update && ./node_modules/.bin/meta npm install",
+    "update": "./node_modules/.bin/meta git pull origin master && ./node_modules/.bin/meta npm install",
     "build": "cd ui && npm run build && cd ../qsim && npm run build",
     "serve-api": "cd api && npm run serve",
     "serve-ui": "cd ui/dist && ../../node_modules/.bin/static-server -p 8080",
     "serve-sphere": "cd sphere && ../node_modules/.bin/static-server -p 5000 -o",
-    "start": "node_modules/.bin/concurrently -n api,ui,sphere \"npm run serve-api\" \"npm run serve-ui\" \"npm run serve-sphere\"",
+    "start": "./node_modules/.bin/concurrently -n api,ui,sphere \"npm run serve-api\" \"npm run serve-ui\" \"npm run serve-sphere\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
