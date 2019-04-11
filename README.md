@@ -5,25 +5,29 @@ Meta-repo for Quantarium project
 ## Set up
 
 1. Clone or download this repo
-2. Install required packages
+2. Install required packages (recommended using yarn for cross platform script)
    ```bash
-   npm i
+   yarn
    ```
 3. **Initialize** all projects
    ```bash
-   npm run init
+   yarn run init
    ```
 
 ## Update, build and run
 1. **Update** all projects if there is an update (not needed after init) 
    ```bash
-   npm run update
+   yarn run update
    ```
-2. **Build** project (Auto built on required project)
+2. **Build** projects
    ```bash
-   npm run build
+   yarn run build
    ```
-3. **Start** all services
+3. **Start** all services (production)
    ```bash
-   npm run start
+   yarn run start
+   ```
+4. **Start** in dev mode
+   ```bash
+   yarn run dev
    ```
