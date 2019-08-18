@@ -14,7 +14,9 @@ This is senior project under Computer Engineering department, King Mongkut's Uni
 
 **Co-advisor**:  Dr.-Ing.Priyakorn Pusawiro 
 
-*Full final project report can be found on Google doc [here](https://docs.google.com/document/d/1gWH9sYNLsZDmwzqlUDPdA8zF_A7fs7ESvtMaZ215cVQ/edit?usp=sharing)*
+*Full final project report can be found on Google Doc [here](https://docs.google.com/document/d/1gWH9sYNLsZDmwzqlUDPdA8zF_A7fs7ESvtMaZ215cVQ/edit?usp=sharing)*
+
+*Final presentation slide can be found on Google Doc [here](https://drive.google.com/file/d/1IcE0Jiu9RihASdZLOm9YXGftqSogpq6P/view?usp=sharing)*
 
 ## What is Quantarium?
 
