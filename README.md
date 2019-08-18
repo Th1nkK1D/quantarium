@@ -4,7 +4,7 @@ Meta-repo for Quantarium project
 
 ![Imgur](https://i.imgur.com/UQexDsy.png)
 
-This is senior project under Computer Engineering department, King Mongkut's University of Technology Thonburi
+This is senior project under Computer Engineering department, King Mongkut's University of Technology Thonburi (KMUTT)
 
 **Team Members:**
 - Thanick Kitisook 58070501026
